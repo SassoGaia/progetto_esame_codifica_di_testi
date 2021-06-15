@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+
+<TEI xmlns="https://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> <!-- Titolo, responsabili e trascrizione -->
+            <titleStmt> 
+                <!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera-->
+                <title n="1"> Vincenzo Bellini a Eleonora Statella, in Parigi, giugno 1835</title>
+                <title n="2"> Vincenzo Bellini a Federico Massimiliano Doca, in Parigi, 21 giugno 1835</title>
+                <author ref="TEI-ListPeson.xml#VB">Vincenzo Bellini</author>
+                <respStmt>
+                    <!-- Trascrittore -->
+                    <resp>Trascrizione di</resp>
+                    <name ref="#GS">Graziella Seminara</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt> <!-- Informazioni sull'edizione -->
+                <edition> <!-- Descrizione particolarità dell'edizione -->
+                    Digital Edition
+                    <date when="2021-05"> Maggio 2021 </date>
+                </edition>
+                <respStmt> 
+                    <resp> Conversione TEI P5 a cura di</resp>
+                    <name ref="#SG"> Sasso Gaia </name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt> <!-- informazioni pubblicazione -->
+                 <publisher> Fondazione Bellini </publisher>
+            </publicationStmt>
+
+           <sourceDesc> <!-- descrizione bibliografica relativa alle fonti da cui il testo digitale è derivato -->
+                <bibl source="TEI-ListBibl.xml#Seminara2017" resp="#GS">
+                <citedRange unit="page" from="527" to="527" ana="458/1">527</citedRange>
+                <citedRange unit="page" from="535" to="535" ana="466">535</citedRange>
+                </bibl>
+                <msDesc> <!-- descrizione del manoscritto fisico -->
+                    <!-- collocazione specifica -->
+                    <msIdentifier>
+                        <country> Italia </country>
+                        <settlement> Catania </settlement>
+                        <repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436 http://www.museobelliniano/ll1.23_I-II" n="I-CATm">Museo Belliniano Catania</repository>
+                        <!--riferimento al catalogo delle sigle dei musei in cui è definito I-CATm -->   
+                        <idno type="inventory">LL.1.32.I-II</idno> 
+                        <!-- segnatura della singola lettera -->
+                        <altIdentifier> 
+                            <idno type="collocation">In esposizione Casa Natale, sala B, vetrina 6, ripiano 2, III</idno>
+                            <!--collocazione della lettera al museo-->
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents> <!-- Informazioni sul contenuto e descrizione generica delle lettere -->
+                        <msItem n="1">
+                            <author xml:lang="it" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+                            <title type="uniform" xml:lang="it">
+								<persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName>,
+                                a <persName ref="TEI-ListPerson.xml#ES">Eleonora Statella</persName>,
+                                in <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>
+                                <date when="1835-06">giugno 1835</date>            
+                            </title>
+                            <textLang mainLang="it">Italiano di inizio Ottocento</textLang>
+                        </msItem>
+                        <msItem n="2">
+							<author xml:lang="it" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName>,
+                                a <persName ref="TEI-ListPerson.xml#FMD">Federico Massimiliano Doca</persName>,
+                                in <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>
+                                <date when="1835-06-21"> 21 giugno 1835</date>
+                            </title>
+							<textLang mainLang="it">Italiano di inizio Ottocento</textLang>
+						</msItem>
+                    </msContents>
+
+                    <physDesc> <!-- descrizione fisica completa del manoscritto nelle sue parti -->
+						<objectDesc> 
+							<supportDesc> <!-- descrizione del supporto fisico della parte scritta dell'oggetto-->
+								<support> 
+                                    <!-- descrizione materiali e lettera -->
+									<material>unknown</material>
+                                    <stamp> Non sono presenti tracce di francobolli né di timbri postali </stamp>
+									<p n="1"> La lettera è rovinata, i bordi sono piegati e presenta numerosi fori. Si compone di un folio con testo su fronte e retro. 
+                                    Sul recto del folio è presente una minuta di lettera indirizzata a Federico Massimiliano Doca mentre sul verso una minuta di lettera indirizzata a Eleonora Statella. 
+                                    Sul verso il testo è diviso da due righe tracciate dalla prima mano, vi è una aggiunta di terza mano in blu, mentre sul verso vi è la firma del catalogatore.
+                                    La carta è sottile, colore beige, le scritte in inchiostro nero e blu. La lettera presenta bordi rovinati e irregolari 
+                                    con uno strappo nella parte centrale a sinistra e numerosi buchi.</p>
+									<p n="2">La lettera presenta numerosi buchi, sia  nella parte superiore (2) che all'interno dello scritto, troviamo ulteriori
+                                    buchi nella parte inferiore sotto il testo (tre piccoli fori) e un buco sul bordo sinistro. 
+                                    L'inchiosto del retro è visibile sul fronte e viceversa.</p>
+								</support>
+                                <extent> <!-- misura del documento -->
+                                    <measure type="folio">1</measure>
+                                    <dimensions unit="mm">
+                                        <height>203</height>
+                                        <width>134</width>
+                                    </dimensions>
+                                </extent>
+            	                <foliation>		
+									Il fronte è piegato in recto (in alto a dx e in entrambi gli agnoli inferiori) e verso (il alto a sx). 
+								</foliation>
+                                <condition>
+                                    <!--descrizione delle condizioni fisiche di conservazione della lettera-->
+                                    <p>Lettera rovinata, testo non perfettamente leggibile.</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="3"> <!--descrizioni delle diverse mani presenti sul documento-->
+                            <handNote xml:id="h1"> <!-- Prima mano -->  
+                                <p>Una prima mano ha scritto le due lettere. La scrittura è realizzata a mano libera ed è non facilmente leggibile. </p>
+                            </handNote>
+                            <handNote xml:id="h2"> <hi facs="#LL1.32.I-II_hotspot_1v_01"/>
+                            <!--indica la seconda mano del catalogatore-->
+                                <p>L'annotazione nel verso è una firma non leggibile del catalogatore, in inchiostro nero nella parte superiore.. </p>
+                            </handNote>
+                            <handNote xml:id="h3"> <hi facs="#LL1.32.I-II_hotspot_1r_02"/> facs=""
+                            <!--indica la terza mano del catalogatore-->
+                                <hi facs="#LL1.32.I-II_hotspot_1r_02"/> 
+                                <p>L'annotazione nel recto con matita blu, in basso sinistra, è probabilmente dovuta ad un catalogatore e presenta un testo incomprensibile,
+                                <hi facs="#LL1.32.I-II_hotspot_1r_03"/> 
+                                 una riga e 
+                                <hi facs="#LL1.32.I-II_hotspot_1r_04"/> 
+                                 il numero 21 tra parentesi. </p>
+                            </handNote>                           
+                        </handDesc>
+                    </physDesc>
+                    <additional> <!-- informazioni aggiuntive bibliografiche -->
+                        <adminInfo>
+                            <note> <!--descrizione del significato della segnatura della lettera-->
+                            All'interno del carteggio belliniano (LL), le segnature LL1.32-I e LL1.32-II identificano 
+                            la trentaduesima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle
+                            lettere scritte da Vincenzo Bellini.
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>               
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+        <!-- Descrizione delle azioni relativa a un atto di corrispondenza -->
+            <correspDesc n="1">
+				<correspAction type="sent">
+					<persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>
+					<date when="1834-06-21"> Giugno 1835</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="TEI-ListPerson.xml#ES" role="duchess">Eleonora Statella</persName>
+                    <placeName>unknown</placeName>
+                    <date>unknown</date>			
+				</correspAction >
+				<correspContext>  <!-- info su scambi di lettere precedenti o successive -->
+					<p>Non è presente un contesto di riferimento</p>
+				</correspContext>
+            </correspDesc> 
+            <correspDesc n="2">
+				<correspAction type="sent">
+					<persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>
+					<date when="1834-06-21">21 giugno 1834</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="TEI-ListPerson.xml#FD">Federico Massimiliano Doca</persName>
+                    <placeName>unknown</placeName>
+                    <date>unknown</date>			
+				</correspAction >
+				<correspContext>
+					<p>Non è presente un contesto di riferimento</p>
+				</correspContext>
+            </correspDesc>  
+
+            <langUsage> <!-- Linguaggio utilizzato nel documento -->
+                <language ident="it">Italiano di inizio Ottocento</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <!-- Rappresentazione digitale-->
+    <facsimile>
+        <!-- Superfice digitale -->
+        <surface n="1" xml:id="LL1.32.I-II_folio_1v"> <!-- Verso // Retro -->
+            <graphic url='LL1.32.I-II_0002.jpg' width='1636px' height='2446px' />
+            <zone ulx="130" uly="321" lrx="1603" lry="525" rendition="Line" xml:id="LL1.32.I-II_line_1v_01"/>
+            <zone ulx="130" uly="533" lrx="1603" lry="699" rendition="Line" xml:id="LL1.32.I-II_line_1v_02"/>
+            <zone ulx="130" uly="697" lrx="1603" lry="805" rendition="Line" xml:id="LL1.32.I-II_line_1v_03"/>
+            <zone ulx="130" uly="785" lrx="1603" lry="913" rendition="Line" xml:id="LL1.32.I-II_line_1v_04"/>
+            <zone ulx="130" uly="913" lrx="1603" lry="1045" rendition="Line" xml:id="LL1.32.I-II_line_1v_05"/>
+            <zone ulx="130" uly="1043" lrx="1603" lry="1173" rendition="Line" xml:id="LL1.32.I-II_line_1v_06"/>
+            <zone ulx="130" uly="1139" lrx="1603" lry="1295" rendition="Line" xml:id="LL1.32.I-II_line_1v_07"/>
+            <zone ulx="130" uly="1241" lrx="1603" lry="1355" rendition="Line" xml:id="LL1.32.I-II_line_1v_08"/>
+            <zone ulx="130" uly="1367" lrx="1603" lry="1471" rendition="Line" xml:id="LL1.32.I-II_line_1v_09"/>
+            <zone ulx="130" uly="1425" lrx="1603" lry="1485" rendition="Line" xml:id="LL1.32.I-II_line_1v_10"/>
+            <zone ulx="130" uly="1439" lrx="1603" lry="1565" rendition="Line" xml:id="LL1.32.I-II_line_1v_11"/>
+            <zone ulx="130" uly="1439" lrx="1603" lry="1565" rendition="Line" xml:id="LL1.32.I-II_line_1v_12"/>
+
+            <zone ulx="909" uly="93" lrx="1157" lry="265" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1v_01" /> <!-- aggiunta seconda mano, firma catalogatore-->
+            <zone ulx="335" uly="1969" lrx="479" lry="2055" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1v_02" /> <!-- fori sul foglio -->
+            <zone ulx="137" uly="629" lrx="1537" lry="701" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1v_03" /> <!-- linea tracciata dalla prima mano che separa il testo-->
+            <zone ulx="163" uly="877" lrx="1363" lry="917" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1v_04" /> <!-- linea tracciata dalla prima mano che separa il testo-->
+
+        </surface>
+
+        <surface n="2" xml:id="LL1.32.I-II_folio_1r"> <!-- Recto // Fronte-->
+            <graphic url='LL1.32.I-II_0001.jpg' width='1636px' height='2472px' />
+            <zone ulx="162" uly="77" lrx="1603" lry="223" rendition="Line" xml:id="LL1.32.I-II_line_1f_01"/>
+            <zone ulx="162" uly="197" lrx="1603" lry="303" rendition="Line" xml:id="LL1.32.I-II_line_1r_02"/>
+            <zone ulx="162" uly="365" lrx="1603" lry="529" rendition="Line" xml:id="LL1.32.I-II_line_1r_03"/>
+            <zone ulx="162" uly="479" lrx="1603" lry="617" rendition="Line" xml:id="LL1.32.I-II_line_1r_04"/>
+            <zone ulx="162" uly="591" lrx="1603" lry="713" rendition="Line" xml:id="LL1.32.I-II_line_1r_05"/>
+            <zone ulx="162" uly="677" lrx="1603" lry="799" rendition="Line" xml:id="LL1.32.I-II_line_1r_06"/>
+            <zone ulx="162" uly="783" lrx="1603" lry="897" rendition="Line" xml:id="LL1.32.I-II_line_1r_07"/>
+            <zone ulx="162" uly="881" lrx="1603" lry="963" rendition="Line" xml:id="LL1.32.I-II_line_1r_08"/>
+            <zone ulx="162" uly="975" lrx="1603" lry="1081" rendition="Line" xml:id="LL1.32.I-II_line_1r_09"/>
+            <zone ulx="162" uly="1073" lrx="1603" lry="1185" rendition="Line" xml:id="LL1.32.I-II_line_1r_10"/>
+            <zone ulx="162" uly="1153" lrx="1603" lry="1271" rendition="Line" xml:id="LL1.32.I-II_line_1r_11"/>
+            <zone ulx="162" uly="1241" lrx="1603" lry="1335" rendition="Line" xml:id="LL1.32.I-II_line_1r_12"/>
+            <zone ulx="162" uly="1349" lrx="1603" lry="1483" rendition="Line" xml:id="LL1.32.I-II_line_1r_13"/>
+            <zone ulx="162" uly="1531" lrx="1603" lry="1643" rendition="Line" xml:id="LL1.32.I-II_line_1r_14"/>
+            <zone ulx="162" uly="1627" lrx="1603" lry="1741" rendition="Line" xml:id="LL1.32.I-II_line_1r_15"/>
+            <zone ulx="162" uly="1721" lrx="1603" lry="1869" rendition="Line" xml:id="LL1.32.I-II_line_1r_16"/>
+            <zone ulx="162" uly="1461" lrx="1603" lry="1555" rendition="Line" xml:id="LL1.32.I-II_line_1r_17"/>
+            <zone ulx="162" uly="1803" lrx="1603" lry="1955" rendition="Line" xml:id="LL1.32.I-II_line_1r_18"/>
+
+            <zone ulx="1153" uly="1961" lrx="1323" lry="2085" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1r_01" /> <!-- fori sul foglio --> 
+            <zone ulx="251" uly="1967" lrx="429" lry="2317" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1r_02"/> <!-- seconda mano in blu a matita non comprensibile -->
+            <zone ulx="409" uly="1975" lrx="569" lry="2323" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1r_03"/> <!-- seconda mano in blu a matita linea-->
+            <zone ulx="693" uly="2099" lrx="859" lry="2307" rendition="Hotspot" xml:id="LL1.32.I-II_hotspot_1r_04"/> <!-- seconda mano in blu a matita numero 21 tra parentesi -->
+
+        </surface>
+    </facsimile>
+
+    <!-- Testo -->
+    <text>
+        
+        <group xml:lang="it">
+            <text type="letter" xml:id="LL1.32-II" subtype="manuscript" n="LL1.32-II">
+                <body n="1">
+                <!-- Struttura della lettera -->
+                    <!-- OPENER-->
+                    <div type="opener" n="o_01"> 
+                        <gap reason="missing" extent="unknown"/>
+                    </div>
+                    <!-- CORPO DELLA LETTERA -->
+                    <div type="letter-body" n="t_01">
+                        <salute n="ab_04">
+                            <s type="sentence" n="s_01">
+                                <lb xml:id="LL1.32.I-II_lb_1v_01" n="1" facs="#LL.1.32.I-II_line_1v_01" />
+                                 <gap reason="cancelled" quantity="2" unit="letter"/>
+                                <hi rend="first_line_indented"/><damage agent="rubbing">Pregiatissima</damage><persName ref="TEI-ListPerson.xml#ES" role="duchess"> <choice><abbr>Sig<pc type="colon">:</pc><add place="supralinear">ra</add></abbr><expan>Signora</expan></choice>Duchessa<supplied>(<forename>Eleonora </forename><surname>Statella</surname>,<note>Duchessa di Sammartino</note>)</supplied></persName>
+                            </s>
+                        </salute>
+                        <ab type="paragraph" n="ab_02">
+                            <s type="sentence" n="s_02">
+                                <lb xml:id="LL1.32.I-II_lb_1v_02" n ="2" facs="#LL1.32.I-II_line_1v_02" />
+                                <hi rend="first_line_indented"/>Aspettava il momento che l<pc type="apostrophe">'</pc><damage agent="rubbing">edizione</damage>
+                                <lb xml:id="LL1.32.I-II_lb_1v_03" n ="3" facs="#LL1.32.I-II_line_1v_03" />
+                                della <rs type="work" ref="TEI-ListWork.xml#Beatrice_di_Tenda">Beatrice <supplied>(di Tenda)</supplied></rs> fosse terminata<pc type="dot">.</pc>
+                            </s>
+                            <s type="sentence" n="s_03">
+                                <lb xml:id="LL1.32.I-II_lb_1v_04" n ="4" facs="#LL1.32.I-II_line_1v_04" />
+                                <hi rend="first_line_indented"/>Aspettai il momento che l<pc type="apostrophe">'</pc><damage agent="rubbing">edizione</damage>
+                                <lb xml:id="LL1.32.I-II_lb_1v_05" n ="5" facs="#LL1.32.I-II_line_1v_05" />
+                                della mia <rs type="work" ref="TEI-ListWork.xml#Beatrice_di_Tenda">Beatrice <supplied>(di Tenda)</supplied></rs> fosse completata 
+                                <lb xml:id="LL1.32.I-II_lb_1v_06" n ="6" facs="#LL1.32.I-II_line_1v_06" />
+                                per offrirle in uno all<pc type="apostrophe">'</pc><damage agent="rubbing">esemplare</damage>
+                                <lb xml:id="LL1.32.I-II_lb_1v_07" n ="7" facs="#LL1.32.I-II_line_1v_07" />
+                                della detta <term subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term><pc type="comma">,</pc> i miei più distinti 
+                                <lb xml:id="LL1.32.I-II_lb_1v_08" n ="8" facs="#LL1.32.I-II_line_1v_08" />
+                                ringraziamenti per l<pc type="apostrophe">'</pc>onore che con 
+                                <lb xml:id="LL1.32.I-II_lb_1v_09" n ="9" facs="#LL1.32.I-II_line_1v_09" />
+                                tanta <add place="supralinear" hand="#VB">affettuosa</add> <damage agent="rubbing">bontà ha voluto accordarmi</damage>
+                                <lb xml:id="LL1.32.I-II_lb_1v_10" n ="10" facs="#LL1.32.I-II_line_1v_10" />
+                                nell’accettare la dedica
+                            </s>
+                        </ab>
+                    </div>
+                </body>
+
+                <back n="1">  
+                    <div type="notes"> <!--note-->
+                        <div type="ann_notes">
+                            <note xml:id="LL1.32-I_note1" resp="#GS">
+                                 <p><persName ref="#ES">Eleonora Statella</persName> (1791-1836), discendente dalla famiglia dei principi di Cassaro, era consorte di Stefano Notarbatolo, duca di Sammartino; quando nel 1818 questi era stato nominato Intendente del Valle di Catania, si era trasferita con lui nella città etnea. Nella residenza catanese la duchessa di Sammartino accolse con liberalità il giovane Bellini, che divenne compagno di svaghi e di musica del fratello Enrico. </p>
+                            </note>
+                            <note xml:id="LL1.32-I_note2" resp="#GS">
+                                <p>Nel recto del medesimo foglio vi è una minuta indirizzata a <persName ref="TEI-ListPerson.xml#FD">Federico Doca</persName>, datata «Parigi 21: Giugno» (Lettera 466).</p>
+                            </note>
+                            <note xml:id="LL1.32-I_note3">
+                                <p>Con i termini <rs type="work">Beatrice</rs> e <term subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term>, <persName ref="#VB">Vincenzo Bellini</persName> si riferisce  al melodramma <rs type="work" ref="TEI-ListWork.xml#Beatrice_di_Tenda">Beatrice di Tenda</rs>.</p>
+                            </note>
+                        </div>
+                        <!--bibliografia-->
+                        <div type="bibliography">
+                            <listBibl xml:id="LL1.32-I_bibliography"> <!-- lista dei riferimenti bibliografici -->
+                                <head>Bibliografia della lettera LL1.32-I</head>
+                                <bibl xml:id="LL1.32-I_Neri">
+                                    <ref target="TEI-ListBibl.xml#Neri2005">
+                                        <bibl>
+                                            <author>Neri</author>
+                                            <date when="2005">2005</date>
+                                            <citedRange unit="page" from="422" to="422">p.422</citedRange>
+                                        </bibl>
+                                    </ref>
+                                </bibl>
+                                <bibl xml:id="LL1.32-I_Seminara">
+                                    <ref target="TEI-ListBibl.xml#Seminara2017">
+                                        <bibl>
+                                            <author>Seminara</author>
+                                            <date when="2017">2017</date>
+                                            <citedRange unit="page" from="527" to="527" n="458/1">p.527</citedRange>
+                                        </bibl>
+                                    </ref>
+                                </bibl>
+                            </listBibl>
+                        </div>
+                    </div>
+                </back>
+
+            </text>
+
+            <text type="letter" xml:id="LL1.32.II" subtype="manuscript" n="LL1.32.II">
+                <body n="2">
+                <!-- Struttura della lettera -->
+                    <!-- OPENER-->
+                    <div type="opener" n="o_01">
+                        <dateline n="ab_01">
+                        <s type="sentence" n="s_01" rend="align(right)">
+                                <lb xml:id="LL1.32.I-II_lb_1r_01" n="1" facs="#LL1.32.I-II_line_1r_01" />
+                                <address>
+                                    <addrLine> 
+                                        <placeName ref="TEI-ListPlace.xml#Paris">Parigi </placeName> 
+                                    </addrLine>
+                                </address>
+                                <date when="1835-06-21"> 21 Giugno 1835 </date>    
+                        </s>
+                        </dateline>
+                    </div>
+                    <!-- CORPO DELLA LETTERA -->
+                    <div type="letter-body" n="t_01">
+                        <salute n="ab_02">
+                            <s type="sentence" n="s_02">
+                                <lb xml:id="LL1.32.I-II_lb_1r_02" n="2" facs="#LL.1.32.I-II_line_1r_02" />
+                                <hi rend="first_line_indented">Mio caro <persName ref="TEI-ListPerson.xml#FD"><supplied>(<forename>Federico Massimiliano</forename>)</supplied> Doca</persName></hi>
+                            </s>
+                        </salute>
+                        <ab type="paragraph" n="ab_03">
+                            <s type="sentence" n="s_03" >
+                                <lb xml:id="LL1.32.I-II_lb_1r_03" n ="3" facs="#LL1.32.I-II_line_1r_03" />
+                                <hi rend="first_line_indented"/>Vi <damage agent="rubbing">ringrazio della</damage> <choice><abbr>vra</abbr><expan>vostra</expan></choice> amabile   
+                                <lb xml:id="LL1.32.I-II_lb_1r_04" n="4" facs="#LL1.32.I-II_line_1r_04" />
+                                lettera che mi dà <choice><orig>raguaglio</orig><reg>ragguaglio</reg></choice> del
+                                <lb xml:id="LL1.32.I_II_lb_1r_05" n="5" facs="#LL1.32.I-II_line_05" />
+                                sentimento di cotesti <damage agent="rubbing">giornali</damage><pc type="comma">,</pc> e 
+                                <lb xml:id="LL1.32.I_II_lb_1r_06" n="6" facs="#LL1.32.I-II_line_06" />    
+                                <damage agent="rubbing">più</damage><pc type="comma">,</pc>  perchè apportatrice di <choice><orig>vre</orig><reg>vostre</reg></choice> novelle<pc type="dot">.</pc>
+                            </s>
+                            <s type="sentence" n="s_04" >
+                                <lb xml:id="LL1.32.I-II_lb_1r_07" n ="7" facs="#LL1.32.I-II_line_1r_07" />  
+                                Ora che il caldo delle <choice><abbr>rapp<add place="supralinear">ni</add></abbr><expan>rapresentazioni</expan></choice> è <w>pas<pc force="weak">=</pc> 
+                                <lb xml:id="LL1.32.I-II_lb_1r_08" n ="8" facs="#LL1.32.I-II_line_1r_08" break="no" rend="double-stroke"/>  
+                                sato </w> non desidero più d<pc type="apostrophe">'</pc>avere i giornali 
+                                <lb xml:id="LL1.32.I-II_lb_1r_09" n ="9" facs="#LL1.32.I-II_line_1r_09" />  
+                                che parlano dei <rs type="work" ref="TEI-ListWork.xml#Puritani">Puritani</rs><pc type="comma">,</pc>  ma se l<pc type="apostrophe">'</pc><w>a<pc force="weak">=</pc>
+                                <lb xml:id="LL1.32.I-II_lb_1r_10" n ="10" facs="#LL1.32.I-II_line_1r_10" break="no" rend="double-stroke"/>  
+                                vete </w> di già potrete darli a <persName ref="TEI-ListPerson.xml#CP" role="librettist"><supplied>(<forename>Carlo</forename>)</supplied><surname> Pepoli</surname></persName>
+                                <lb xml:id="LL1.32.I-II_lb_1r_11" n ="11" facs="#LL1.32.I-II_line_1r_11" />  
+                                che <damage agent="rubbing">me li</damage> porterà al suo ritorno                                 
+                                <lb xml:id="LL1.32.I-II_lb_1r_12" n ="12" facs="#LL1.32.I-II_line_1r_12" />  
+                                a <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>. 
+                            </s>
+                            <s type="sentence" n="s_05" >  
+                                <pc>-</pc> E voi che fate<pc type="interrogative">?</pc>
+                            </s>  
+                            <s type="sentence" n="s_06" > 
+                                Venite 
+                                <lb xml:id="LL1.32.I-II_lb_1r_13" n ="13" facs="#LL1.32.I-II_line_1r_13" /> 
+                                per ora in <placeName><choice><orig>francia</orig><reg>Francia</reg></choice></placeName> o no<pc type="interrogative">?</pc> 
+                            </s>
+                            <s type="sentence" n="s_07" >    
+                                <persName><surname>Costa</surname></persName> <w>fini<pc force="weak">=</pc>
+                                <lb xml:id="LL1.32.I-II_lb_1r_14" n ="14" facs="#LL1.32.I-II_line_1r_14" break="no" rend="double-stroke"/>
+                                rà</w><damage agent="rubbing"> la sua <term subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term></damage><pc type="interrogative">?</pc> 
+                            </s>
+                            <s type="sentence" n="s_08" >  
+                                Stà bene in salute<pc type="interrogative">?</pc> 
+                            </s>
+                            <s type="sentence" n="s_09" > 
+                                <lb xml:id="LL1.32.I-II_lb_1r_15" n ="15" facs="#LL1.32.I-II_line_1r_15" />
+                                <persName ref="TEI-ListPerson.xml#CP" role="librettist"><supplied>(<forename>Carlo</forename>)</supplied> <surname>Pepoli</surname></persName> contenta i <damage agent="rubbing">due</damage> maestri<pc type="interrogative">?</pc>
+                            </s>
+                            <s type="sentence" n="s_10" > 
+                                Il Grande 
+                                <lb xml:id="LL1.32.I-II_lb_1r_16" n ="16" facs="#LL1.32.I-II_line_1r_16" />
+                                <persName ref="TEI-ListPerson.xml#VG"><supplied>(<forename>Vincenzo</forename>)</supplied><surname> Gabussi</surname></persName> che vita tiene<pc type="interrogative">?</pc>
+                            </s>
+                            <s type="sentence" n="s_11" > 
+                                Dice male di tutto 
+                                <lb xml:id="LL1.32.I-II_lb_1r_17" n ="17" facs="#LL1.32.I-II_line_1r_17" />
+                                il mondo<pc type="interrogative">?</pc> 
+                            </s>
+                            <s type="sentence" n="s_12" > 
+                                farà dare <del rend="overstrike">la sua</del> il suo <rs type="work" ref="TEI-ListWork.xml#Ernani">Ernani</rs><pc type="interrogative">?</pc> 
+                            </s>
+                            <s type="sentence" n="s_13" >
+                                <lb xml:id="LL1.32.I-II_lb_1r_18" n ="18" facs="#LL1.32.I-II_line_1r_18" />
+                                <persName ref="TEI-ListPerson.xml#PFL"><supplied>(<forename>Pierre François</forename>)</supplied><surname> Laporte</surname></persName> <choice><orig>fà</orig><reg>fa</reg></choice> denari<pc type="interrogative">?</pc>
+                            </s>  
+                        </ab>
+                    </div>    
+                </body>
+
+                <back n="2">  
+                    <div type="notes">
+                        <!--note-->
+                        <div type="ann_notes">
+                            <note xml:id="LL1.32-II_note1" resp="#GS">
+                                 <p>Si trattava dell’opera <rs type="work" ref="TEI-ListWork.xml#Ernani">Ernani</rs> su libretto di Gaetano Rossi, con la quale Gabussi – fidando nel sostegno di Rossini – aveva deciso di cimentarsi di nuovo nel teatro musicale. </p>
+                            </note>
+                            <note xml:id="LL1.32-II_note2" resp="#GS">
+                                <p><persName ref="TEI-ListPerson.xml#FD">Federico Massimilano Doca</persName> operava come impresario a Londra; curò la traduzione inglese del libretto dei Puritani in occasione del primo allestimento dell’opera al King’s Theatre.</p>
+                             </note>
+                            <note xml:id="LL1.32.II_note3" resp="#GS">
+                                <p>Nel verso del medesimo foglio, vi è una minuta indirizzata a <persName ref="TEI-ListPerson.xml#ES">Eleonora Statella</persName>, Duchessa di Sammartino (Lettera 458/1).</p>
+                            </note>
+                        </div>
+                        <!--bibliografia-->
+                        <div type="bibliography">
+                            <listBibl xml:id="LL1.32-II_bibliography">
+                                <head>Bibliografia della lettera LL1.32-II</head>
+                                 <bibl xml:id="LL1.32-II_Amore">
+                                    <ref target="TEI-ListBibl.xml#Amore1894">
+                                        <bibl>
+                                            <author >Amore</author>
+                                            <date when="1894">1894</date>
+                                            <citedRange unit="page" from="383" to="383">p.383</citedRange>
+                                        </bibl>
+                                    </ref>
+                                </bibl>
+                                <bibl xml:id="LL1.32-II_Cambi">
+                                    <ref target="TEI-ListBibl.xml#Cambi1943">
+                                        <bibl>
+                                            <author>Cambi</author>
+                                            <date when="1943">1943</date>
+                                            <citedRange unit="page" from="568" to="568">p.568</citedRange>
+                                        </bibl>
+                                    </ref>
+                                </bibl>
+                                <bibl xml:id="LL1.32-II_Neri">
+                                    <ref target="TEI-ListBibl.xml#Neri2005">
+                                        <bibl>
+                                            <author>Neri</author>
+                                            <date when="2005">2005</date>
+                                            <citedRange unit="page" from="425" to="425">p.425</citedRange>
+                                        </bibl>
+                                    </ref>
+                                </bibl>
+                                <bibl xml:id="LL1.32-II_Seminara">
+                                    <ref target="TEI-ListBibl.xml#Seminara2017">
+                                        <bibl>
+                                            <author>Seminara</author>
+                                            <date when="2017">2017</date>
+                                            <citedRange unit="page" from="535" to="535" n="465">p.553</citedRange>
+                                        </bibl>
+                                    </ref>
+                                </bibl>
+                            </listBibl>
+                        </div>
+                    </div>
+                </back>
+
+            </text>    
+                
+            
+        </group>
+
+    </text>    
+</TEI>
